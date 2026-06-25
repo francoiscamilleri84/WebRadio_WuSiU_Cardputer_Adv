@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "../Cardputer-Game-Station-Emulators-Ext-Display"
+		},
+		{
+			"name": "Web_Radio_WuSiU_SD_Wifi",
+			"path": "."
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}
