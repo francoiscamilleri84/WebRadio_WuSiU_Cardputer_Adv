@@ -10,7 +10,7 @@ An advanced internet radio for **M5Stack Cardputer Adv** with SD card station li
 
 The list of radio stations is stored in a text file: **station_list.txt**
 
-The file must be placed in the **root directory of the SD card**.
+The file must be placed in the **/web_radio_config/ directory of the SD card**.
 
 ### Priority and Storage Options
 
@@ -47,8 +47,7 @@ Radio 02 Name, http://radio-stream-link-02
 
 ## 📶 Wi-Fi
 
-- The device can store **up to 5 Wi-Fi networks** in memory.
-- If memory is full when attempting to save another network, the device will display the list of saved networks so one can be selected for replacement.
+SSID and Password and stored in wifi.txt in /web_radio_config/ 
 
 ### Connection Priority Logic
 
@@ -57,14 +56,8 @@ Radio 02 Name, http://radio-stream-link-02
 3. If multiple known networks are found, the device connects to the **strongest signal**.
 4. If no known networks are available, the device displays the list of currently available networks for selection.
 
-- Wi-Fi settings are automatically saved to memory.
+- Wi-Fi settings are saved to wifi.txt
 
-### Reset Wi-Fi settings
-
-To reset stored Wi-Fi credentials:
-
-1. Start the program  
-2. Press **BtnG0** while the device is attempting to connect to the network
 
 ---
 
